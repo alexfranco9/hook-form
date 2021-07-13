@@ -40,7 +40,7 @@ const UserForm = props => {
     };
 
     const ConfirmValid = input => {
-        if(input.value !== Password) {
+        if(input !== Password) {
             return false;
         }
         return true;
